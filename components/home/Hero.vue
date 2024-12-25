@@ -33,13 +33,11 @@ const { title, description, github } = useAppConfig()
           Dashboard
         </HomeLink>
         <HomeLink
-          size="lg"
-          type="outline"
-          rel="noopener"
           href="https://t.me/AccessDeny_bot"
+          target="_blank"
           title="Telegram"
           class="flex items-center justify-center gap-1"
-          target="_blank"
+          rel="noopener"
         >
           Telegram_Bot
         </HomeLink>
